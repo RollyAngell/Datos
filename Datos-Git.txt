@@ -1,0 +1,83 @@
+Para iniciar 
+
+--Configurar usuario y email
+
+git config --global user.name "RollyAngell"
+git config --global user.email "angel.inga.v@uni.pe"
+
+--Configurar el color
+
+git config --global color.ui true
+
+-- Para ver las configuraciones que hemos hecho
+
+git --global --list
+
+---Para ver que has hecho
+
+git status
+
+-- Para añadir
+
+git add
+
+-- Para añadir todo los archivos
+
+git add -A
+
+--Para agregar un comentario
+git commit -m "comentario"
+
+-- Para ver todos los comits
+git log
+
+--Para copiar el codigo de todos los commits
+git log > commits.txt
+
+--Par ir a algun commit
+git checkout 1f20c402fb0b68bbf3c1a48f5876a52a6d56b129
+
+-- Para ir al ultimo commit
+git checkout master 
+
+-- Par borrar un commit sin alter el codigo
+git reset --soft 1f20c402fb0b68bbf3c1a48f5876a52a6d56b129 
+ 
+-- Para borrar el Staging Area sin tocar el Working Area
+git reset --mixed 1f20c402fb0b68bbf3c1a48f5876a52a6d56b129
+
+--Para borrar absolutamente todo en un commit
+git reset --hard 1f20c402fb0b68bbf3c1a48f5876a52a6d56b129
+
+--Para mostrar la ramas que tenemos
+git branch
+
+--Para crear una rama
+git branch test --> test es el nombre de la nueva rama
+
+--Para crear una rama e ir a ella
+git checkout -b Texto  --> Texto es el nombre de la nueva rama
+
+--Para ir a la rama
+git checkout test  --> test es el nombre de la nueva rama
+
+--Para eliminar una rama
+git branch -D test  --> test es el nombre de la nueva rama 
+
+-- Para unir lo que se avanzó en la rama a  inicial
+git merge test --> test es el nombre de la nueva rama 
+
+--Para clonar un repositorio(bajarse el proyecto)
+git clone https://github.com/comunidad-codigofacilito/gitfacilito.git
+
+--Para vincular el proyecto remoto con el proyecto local
+git remote add origin https://github.com/RollyAngell/Mytest.git	
+
+--Para comprobar el vinculo
+git remote -v
+
+--Para eliminar el vinculo remoto
+git remote remove origin
+
+--Para subir los archivos a git hub (el repositorio remoto)
+git push origin master
