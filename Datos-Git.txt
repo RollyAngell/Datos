@@ -17,11 +17,11 @@ git --global --list
 
 git status
 
--- Para añadir
+-- Para aÃ±adir
 
 git add
 
--- Para añadir todo los archivos
+-- Para aÃ±adir todo los archivos
 
 git add -A
 
@@ -64,7 +64,7 @@ git checkout test  --> test es el nombre de la nueva rama
 --Para eliminar una rama
 git branch -D test  --> test es el nombre de la nueva rama 
 
--- Para unir lo que se avanzó en la rama a  inicial
+-- Para unir lo que se avanzÃ³ en la rama a  inicial
 git merge test --> test es el nombre de la nueva rama 
 
 --Para clonar un repositorio(bajarse el proyecto)
@@ -81,3 +81,6 @@ git remote remove origin
 
 --Para subir los archivos a git hub (el repositorio remoto)
 git push origin master
+
+--Para eliminar commits locals encolados
+git reset --hard origin/master
