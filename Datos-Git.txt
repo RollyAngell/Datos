@@ -84,3 +84,17 @@ git push origin master
 
 --Para eliminar commits locals encolados
 git reset --hard origin/master
+
+
+Uso de Git
+
+git init o git clone
+git add --> git commit --> 
+
+git branch  : esto es para ver las ramas existentes
+git branch nueva_rama  : esto para crear la nueva rama
+git checkout nueva_rama : para cambiar la nueva rama "nueva_rama"
+
+git remote add origin https://github.com/RollyAngell/Machine-Learning-Engineer-with-Microsoft-Azure.git
+git push -u origin master
+git push -u origin P1
