@@ -96,5 +96,6 @@ git branch nueva_rama  : esto para crear la nueva rama
 git checkout nueva_rama : para cambiar la nueva rama "nueva_rama"
 
 git remote add origin https://github.com/RollyAngell/Machine-Learning-Engineer-with-Microsoft-Azure.git
+git remote add origin https://github.com/RollyAngell/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program.git
 git push -u origin master
 git push -u origin P1
